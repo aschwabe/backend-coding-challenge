@@ -1,0 +1,30 @@
+# app settings
+settings:
+  expenseTable: tblExpenses
+  maxRecords: 4
+  defaultUserId: 48ad1268-940d-46ab-be13-bbdfc0d7399f
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: expense
+  password: expense
+  url: jdbc:mysql://192.168.2.190/expenses
+  properties:
+    charSet: UTF-8
+
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+
+# Logging settings.
+logging:
+  level: INFO
+
+swagger:
+  resourcePackage: net.schwabe.tardis.resources
+  title: Tardis API
+  version: 0.0.1  

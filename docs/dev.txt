@@ -1,0 +1,8 @@
+DAO pattern:
+	http://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
+
+JDBI 
+	http://jdbi.org/sql_object_overview/
+
+Microservices with dropwizard and IDBI:
+	https://github.com/kubamarchwicki/micro-java/blob/master/examples/dropwizard/src/main/java/pl/marchwicki/microjava/services/db/TodoMapper.java
